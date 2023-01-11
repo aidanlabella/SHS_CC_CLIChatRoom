@@ -1,5 +1,4 @@
-import java.io.InputStream;
-import java.io.PrintStream;
+import java.io.*;
 import java.net.*;
 import java.util.Scanner;
 
