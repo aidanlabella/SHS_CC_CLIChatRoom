@@ -3,7 +3,7 @@ import java.net.*;
 import java.util.Scanner;
 
 public class ChatRoomClient {
-    private static final String HOST = "localhost";
+    private static final String HOST = "gol2518-r1.main.ad.rit.edu";
     private static final int PORT = 800;
 
     //HINT: You will want to have object references here.
