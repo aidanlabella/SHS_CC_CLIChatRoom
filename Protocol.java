@@ -21,4 +21,5 @@ public interface Protocol {
     public static String NAME = "NAME";
     public static String COLOR = "COLOR";
     public static String WELCOME = "WELCOME";
+    public static String RECIEVED = "RCVD";
 }
