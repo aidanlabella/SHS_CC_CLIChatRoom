@@ -36,6 +36,8 @@ public class ChatRoomClient {
             //set your name, color and send a welcome message.
             //You can use the last two lines where the "handshake" was
             //completed as a refetence
+            //
+            //HINT: Use the Protocol Interface for reference!
         }      
     }
 

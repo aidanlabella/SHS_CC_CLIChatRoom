@@ -13,12 +13,13 @@ public interface Protocol {
     public static final String ANSI_WHITE = "\u001B[37m";
 
     // TCP "Handshake"
-    public static String OK = "OK";
+    public static final String OK = "OK";
 
     // Indicates to the server that there is a new message waiting
-    public static String NEW_MSG = "NEW_MSG";
+    public static final String NEW_MSG = "NEW_MSG";
 
-    public static String NAME = "NAME";
-    public static String COLOR = "COLOR";
-    public static String WELCOME = "WELCOME";
+    public static final String NAME = "NAME";
+    public static final String COLOR = "COLOR";
+    public static final String WELCOME = "WELCOME";
+    public static final String RECIEVED = "RCVD";
 }
