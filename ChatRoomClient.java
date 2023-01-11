@@ -1,3 +1,4 @@
+import java.io.InputStream;
 import java.io.PrintStream;
 import java.net.*;
 import java.util.Scanner;
@@ -6,10 +7,14 @@ public class ChatRoomClient {
     private static final String HOST = "localhost";
     private static final int PORT = 800;
 
+    //HINT: You will want to have object references here.
 
     public ChatRoomClient(String host, int port) {
         try {
             Socket socket = new Socket(host, port);
+
+            InputStream inputStream = socket.getInputStream();
+            OutputStream outputStream = socket.getOutputStream();
 
             //TODO: PART 1: You will need to create an object for both text input and output
             // hint: what is the type of System.in and System.out? Keep in mind these are both
